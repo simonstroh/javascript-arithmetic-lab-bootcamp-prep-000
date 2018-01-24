@@ -11,6 +11,7 @@ function multiply(a, b) {
   return a *= b
 }
 function inc(n) {
-  var n = n++
+  var n = parseInt(n)
+  n++
   return n
 }
