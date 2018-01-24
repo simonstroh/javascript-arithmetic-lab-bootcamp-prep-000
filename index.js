@@ -15,3 +15,12 @@ function inc(n) {
   n++
   return n
 }
+function dec(n) {
+  var n = parseInt(n)
+  n--
+  return n
+}
+function makeInt(n) {
+  var n = parseInt(n)
+  return n
+}
