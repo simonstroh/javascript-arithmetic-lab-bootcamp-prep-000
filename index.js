@@ -11,16 +11,16 @@ function multiply(a, b) {
   return a *= b
 }
 function inc(n) {
-  var n = parseInt(n)
+  parseInt(n)
   n++
   return n
 }
 function dec(n) {
-  var n = parseInt(n)
+  parseInt(n)
   n--
   return n
 }
 function makeInt(n) {
-  var n = parseInt(n)
+  parseInt(n)
   return n
 }
